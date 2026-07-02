@@ -1,4 +1,4 @@
-# <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Ayan Ahmad Farooque | AI & Backend Engineer
+# <img src="https://slackmojis.com/emojis/63-fry/download" width="30"/> Ayan Ahmad Farooque | AI & Backend Engineer
 
 <div align="center">
 
@@ -59,15 +59,15 @@ AI & backend engineer building retrieval-augmented generation pipelines, multi-a
 
 ## 🚀 Featured Projects
 
-**[PolyGuide](https://github.com/ayanfarooque/PolyGuide)** — AI RAG Chatbot for Polytechnic Admissions (DTE Maharashtra)
+**[PolyGuide](https://github.com/ronit-1404/PolyGuide/PolyGuide)** — AI RAG Chatbot for Polytechnic Admissions (DTE Maharashtra)
 `Python` `Flask` `PostgreSQL` `FAISS` `LangChain` `Gemini API`
 Two-pass RAG pipeline (JSON query plans → SQL + brochure context), full ingestion pipeline into FAISS, multilingual (Marathi/Hindi) support.
 
-**[Automated AI Learning Platform](https://github.com/ayanfarooque/automated-ai-learning-platform)** — Google Solution Challenge 2025
+**[Automated AI Learning Platform](https://github.com/ayanfarooque/gdg-25)** — Google Solution Challenge 2025
 `Flutter` `MongoDB` `CrewAI` `LangChain` `FAISS`
 Multi-agent (CrewAI) system for question-paper generation, RAG chatbot with FAISS + LangChain, OCR + sentiment analysis + plagiarism detection.
 
-**[Learning Lane](https://github.com/ayanfarooque/learning-lane)**
+**[Learning Lane](https://github.com/ayanfarooque/Hackronyx_25)**
 `TensorFlow` `Keras` `OpenCV` `spaCy` `PyTesseract`
 Real-time emotion/engagement/screen-activity tracking, admin/student/parent dashboards, Chrome extension for data collection.
 
