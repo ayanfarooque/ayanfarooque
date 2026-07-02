@@ -29,30 +29,30 @@ jobs:
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
 
-  habits:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: asset/habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_from: 200
+  # habits:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: asset/habits.svg
+  #         token: ${{ secrets.METRICS_TOKEN }}
+  #         base: ""
+  #         plugin_habits: yes
+  #         plugin_habits_facts: yes
+  #         plugin_habits_charts: yes
+  #         plugin_habits_from: 200
 
-  activity:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: asset/activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
+  # activity:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: asset/activity.svg
+  #         token: ${{ secrets.METRICS_TOKEN }}
+  #         base: ""
+  #         plugin_activity: yes
+  #         plugin_activity_limit: 5
+  #         plugin_activity_days: 14
 
   isocalendar:
     runs-on: ubuntu-latest
@@ -65,26 +65,26 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-  achievements:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: asset/achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
+  # achievements:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: asset/achievements.svg
+  #         token: ${{ secrets.METRICS_TOKEN }}
+  #         base: ""
+  #         plugin_achievements: yes
+  #         plugin_achievements_threshold: C
 
-  projects:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: asset/projects.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_projects: yes
+  # projects:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: lowlighter/metrics@latest
+  #       with:
+  #         filename: asset/projects.svg
+  #         token: ${{ secrets.METRICS_TOKEN }}
+  #         base: ""
+  #         plugin_projects: yes
 
   stargazers:
     runs-on: ubuntu-latest
