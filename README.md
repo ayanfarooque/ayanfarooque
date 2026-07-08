@@ -1,4 +1,4 @@
-# <img src="https://slackmojis.com/emojis/63-fry/download" width="30"/> Ayan Ahmad Farooque | AI & Backend Engineer
+# <img src="https://slackmojis.com/emojis/63-fry/download" width="30"/> Ayan Ahmad Farooque | AI & Backend Explorer
 
 <div align="center">
 
